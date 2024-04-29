@@ -31,7 +31,7 @@ function App() {
         </Button>
       </div>
       <div>
-        <Button outline rounded success>
+        <Button rounded danger>
           <GoDatabase />
           Welcome!
         </Button>
