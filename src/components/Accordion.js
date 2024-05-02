@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { HiChevronDown, HiChevronLeft } from "react-icons/hi";
 
 function Accordion({ items }) {
-    const [expandedIndex, setExpandedIndex] = useState(0);
+    const [expandedIndex, setExpandedIndex] = useState(-1);
 
     const handleClick = (nextIndex) => {
         setExpandedIndex(nextIndex);
